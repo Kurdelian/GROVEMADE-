@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="" class="header__link">Shop</a></li>
+                <li class="header__item"><a href="" class="header__link">Explore</a></li>
+            </ul>
+            <img src="./images/logo.svg" alt="logo grovemade" class="header__icon"> 
+            <a class="header__link">My Cart</a>
+        </nav>
+        <nav class="navbar navbar-light bg-light fixed-top menu">
+            <div class="container-fluid">
+                <img src="./images/logo.svg" alt="logo grovemade" class="header__icon">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header mobile">
+                        <button type="button" class="btn-close text-reset mobile-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="header__link" aria-current="page" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__link" href="#">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__link" href="#">My Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">The Desk Shelf System</h1>
+            <p class="hero__tex">Available in Walnut or Maple</p>
+            <p class="hero__deskription">LEARN MORE</p>
+        </div>
+    </section>
+    <section class="desing">
+        <div class="container">
+            <h2 class="desing__title">Design Inspires</h2>
+            <p class="desing__tex">Build your dream workspace, so you can get your best work done.</p>
+            <p class="desing__deskription">GET STARTED</p>
+            <ul class="desing__case">
+            <li class="desing__box">
+            <picture>
+                <source srcset="./images/desk-1x.jpg 1x, ./images/desk-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <img src="./images/desk-1x.jpg" alt="computer" class="desing__margin desing__image">
+            </picture>
+            <p class="desing__box__tex desing__margin">Desk Pads</p>
+            <p class="desing__deskription">LEARN MORE</p>
+        </li>
+        <li class="desing__box">
+            <picture>
+                <source srcset="./images/laptop-1x.jpg 1x, ./images/laptop-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <img src="./images/laptop-1x.jpg" alt="laptop" class="desing__margin desing__image">
+            </picture>
+            <p class="desing__box__tex desing__margin">Laptop Stands</p>
+            <p class="desing__deskription">LEARN MORE</p>
+        </li>
+    </ul>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <h3 class="products__title">Featured Products</h3>
+            <p class="products__tex">See What’s Trending Right Now</p>
+            <div class="products__squares">
+            <div id="square" class="products__item"></div>
+            <div id="square" class="products__item"></div>
+            <div id="square" class="products__item"></div>
+        </div>
+        <ul class="products__list">
+            <li class="products__item__part">
+                <picture>
+                    <source srcset="./images/tel-1x.jpg 1x, ./images/tel-2x.jpg 2x" media="(min-width: 1200px)"/>
+                    <img src="./images/tel-1x.jpg" alt="telefon" class="products__image">
+                </picture>
+                <p class="products__tex__item">Walnut MagSafe Stand</p>
+                <p class="products__deskription">$120</p>
+            </li>
+            <li class="products__item__part">
+                <picture>
+                    <source srcset="./images/lap-1x.jpg 1x, ./images/lap-2x.jpg 2x" media="(min-width: 1200px)" />
+                    <img src="./images/lap-1x.jpg" alt="telefon" class="products__image">
+                </picture>
+                <p class="products__tex__item">Walnut Laptop Riser</p>
+                <p class="products__deskription">$150</p>
+            </li>
+            <li class="products__item__part">
+                <picture>
+                    <source srcset="./images/tab-1x.jpg 1x, ./images/tab-2x.jpg 2x" media="(min-width: 1200px)" />
+                    <img src="./images/tab-1x.jpg" alt="telefon" class="products__image">
+                </picture>
+                <p class="products__tex__item">Walnut iPad Stand</p>
+                <p class="products__deskription">$80</p>
+            </li>
+            <li class="products__item__part">
+                <picture>
+                    <source srcset="./images/comp-1x.jpg 1x, ./images/comp-2x.jpg 2x" media="(min-width: 1200px)" />
+                    <img src="./images/comp-1x.jpg" alt="telefon" class="products__image">
+                </picture>
+                <p class="products__tex__item">Walnut Monitor Stand</p>
+                <p class="products__deskription">$100</p>
+            </li>
+        </ul>
+        </div>
+    </section>
+    <section class="office">
+        <div class="container">
+            <h1 class="office__title">Home Office Inspiration</h1>
+            <p class="office__tex">Working from home can be a challenge—see some creative solutions to get it just right.</p>
+            <p class="office__deskription">LEARN MORE</p>
+        </div>
+    </section>
+    <section class="way">
+        <div class="container">
+            <h5 class="way__title">Made The Hard Way</h5>
+            <p class="way__tex">Our signature craftsmanship has been honed over a decade of manufacturing innovation here in Portland, Oregon. We
+            combine the skills of our small in-house team with the collective strength of collaborators throughout the US to deliver
+            quality products worth investing in.</p>
+            <img src="./images/moore-park.jpg" alt="moore-park" class="way__image">
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h6 class="work__title">Make Work Meaningful</h6>
+            <p class="work__tex">We're here because we believe that your work deserves the best. A team that loves working together is the magic that
+            makes it all happen.</p>
+            <ul>
+                <li>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
