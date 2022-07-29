@@ -675,10 +675,13 @@ html {
     font-size: 15px;
     line-height: 1.09;
     color: var(--primary-text-color);
+}
+
+.footer__item__link {
     margin-bottom: 16px;
 }
 
-.footer__item:last-child {
+.footer__item__link:last-child {
     margin-bottom: 0px;
 }
 
@@ -764,18 +767,21 @@ html {
     text-align: right;
     letter-spacing: 0.8px;
     color: #707A7F;
+}
+
+.footer__item__right_link {
     margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) {
-    .footer__item__right{
+    .footer__item__right_link {
         margin-right: 37px;
         margin-bottom: 0px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .footer__item__right:last-child {
+    .footer__item__right_link:last-child {
         margin-right: 0px;
     }
 }
