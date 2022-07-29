@@ -149,7 +149,7 @@ html {
 }
 
 .hero {
-    background-image: url(../images/hero_bg.jpg);
+    background-image: url(./images/hero_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -406,7 +406,7 @@ html {
 }
 
 .office {
-    background-image: url(../images/home-office-bg.jpg);
+    background-image: url(./images/home-office-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
